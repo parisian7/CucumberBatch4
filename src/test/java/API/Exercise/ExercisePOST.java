@@ -1,6 +1,8 @@
 package API.Exercise;
 
 import Utils.PayloadUtils;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.Given;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -16,6 +18,9 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URISyntaxException;
+import java.util.Map;
+
+import static Utils.PayloadUtils.getPetPayload;
 
 public class ExercisePOST {
 
@@ -78,4 +83,63 @@ public class ExercisePOST {
         Assert.assertEquals(HttpStatus.SC_OK,response.getStatusLine().getStatusCode());
        Assert.assertEquals("application/json",response.getEntity().getContentType().getValue());
     }
+
+    @Test
+    public static void petAddition(int id , String name , String status)throws Exception{
+        HttpClient client= HttpClientBuilder.create().build();
+        URIBuilder uriBuilder=new URIBuilder();
+        uriBuilder.setScheme("https").setHost("petstore.swagger.io").setPath("v2/pet");
+
+        HttpPost post=new HttpPost(uriBuilder.build());
+
+        post.setHeader("Content-Type","application/json");
+        post.setHeader("Content", "application/json");
+
+        HttpEntity entity=new StringEntity(PayloadUtils.getPetPayload(id,name,status));
+
+        post.setEntity(entity);
+        HttpResponse response= client.execute(post);
+        System.out.println(response.getStatusLine().getStatusCode());
+        Assert.assertEquals(HttpStatus.SC_OK,response.getStatusLine().getStatusCode());
+        Assert.assertEquals("application/json",response.getEntity().getContentType().getValue());
+
+        ObjectMapper objectMapper=new ObjectMapper();
+        Map<String, Object> map = objectMapper.readValue(response.getEntity().getContent(),
+                new TypeReference<Map<String, Object>>() {
+                });
+       Assert.assertEquals(id, map.get("id"));
+       Assert.assertEquals(name,map.get("name"));
+       Assert.assertEquals(HttpStatus.SC_OK,response.getStatusLine().getStatusCode());
+       Assert.assertEquals(status,map.get("status"));
+
+
+    }
+    @Test
+    public void createPet() throws URISyntaxException, IOException {
+
+        // https://petstore.swagger.io/v2/pet
+        HttpClient httpClient=HttpClientBuilder.create().build();
+
+        URIBuilder uriBuilder=new URIBuilder();
+        uriBuilder.setScheme("https");
+        uriBuilder.setHost("petstore.swagger.io");
+        uriBuilder.setPath("v2/pet");
+
+
+        HttpPost httpPost=new HttpPost(uriBuilder.build());
+
+        httpPost.setHeader("Content-Type","application/json");
+        httpPost.setHeader("Accept","application/json");
+
+        HttpEntity httpEntity=new StringEntity(getPetPayload(5668,"Hatiko","waiting"));
+
+        httpPost.setEntity(httpEntity);
+
+        HttpResponse httpResponse=httpClient.execute(httpPost);
+
+        Assert.assertEquals(HttpStatus.SC_OK,httpResponse.getStatusLine().getStatusCode());
+
+
+    }
+
 }

@@ -95,7 +95,7 @@ public class GETRequestIntro {
         URIBuilder builder=new URIBuilder();
         builder.setScheme("https");
         builder.setHost("petstore.swagger.io");
-        builder.setPath("v2/pet/7891");
+        builder.setPath("v2/pet/5141");
 
         HttpGet httpGet=new HttpGet(builder.build());
 
@@ -108,6 +108,7 @@ public class GETRequestIntro {
         System.out.println(response.getStatusLine().getReasonPhrase());
 
         System.out.println(response.getEntity().getContentType().getValue());
+
 
     }
 

@@ -162,7 +162,8 @@ public class TVSeriesCharacters {
         HttpClient client = HttpClientBuilder.create().build();
         URIBuilder uriBuilder = new URIBuilder();
         //https://itunes.apple.com/search?term=linkinpark
-        uriBuilder.setScheme("https").setHost("itunes.apple.com").setPath("search").setCustomQuery("term=linkinpark");
+        int limit=100;
+        uriBuilder.setScheme("https").setHost("itunes.apple.com").setPath("search").setCustomQuery("term=linkinpark&limit="+limit);
         HttpGet get = new HttpGet(uriBuilder.build());
         HttpResponse response = client.execute(get);
         ObjectMapper objectMapper = new ObjectMapper();
@@ -178,5 +179,7 @@ public class TVSeriesCharacters {
             cnt++;
             }
         }
+        Assert.assertEquals(limit,songs.size());
+        Assert.assertEquals(limit,cnt);
     }
 }
