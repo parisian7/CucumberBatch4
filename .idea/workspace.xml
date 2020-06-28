@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa0576a-6eed-4909-b82b-2b891471cb63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CucumberBatch4.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/Exercise/TVSeriesCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API/deserializtionIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API/deserializtionIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/API/Exercise/ExerciseDeserialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/API/Exercise/ExerciseDeserialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/API/deserializtionIntro$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/API/deserializtionIntro$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/API/deserializtionIntro$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/API/deserializtionIntro$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/API/deserializtionIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/API/deserializtionIntro.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1duNO6VhWbAeHT4AtUY0e06XNb2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +39,66 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.deserializtionIntro.deserialization4">
+    <configuration name="deserializtionIntro.deserialization1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.deserializtionIntro" />
+      <option name="METHOD_NAME" value="deserialization1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deserializtionIntro.deserialization3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.deserializtionIntro" />
+      <option name="METHOD_NAME" value="deserialization3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="deserializtionIntro.deserialization4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.deserializtionIntro" />
+      <option name="METHOD_NAME" value="deserialization4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.deserializtionIntro.deserialization4" />
+        <item itemvalue="JUnit.deserializtionIntro.deserialization3" />
+        <item itemvalue="JUnit.deserializtionIntro.deserialization1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,11 +110,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593270982029</updated>
-      <workItem from="1593270983452" duration="354000" />
+      <workItem from="1593270983452" duration="1171000" />
+      <workItem from="1593272166782" duration="10090000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1593272299372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593272299372" />
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1593317608915">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593317608915" />
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593287944950" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1593317608915">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593317608915" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593287944950" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1593317608915">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593317608915" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593287944950" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1593317608915">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593317608915" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593287944950" />
+    <state x="2333" y="89" width="1509" height="782" key="dock-window-1" timestamp="1593317891381">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2333" y="89" width="1509" height="782" key="dock-window-1/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593317891381" />
   </component>
 </project>
