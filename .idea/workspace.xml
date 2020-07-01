@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa0576a-6eed-4909-b82b-2b891471cb63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/Exercise/StarWarsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/Ad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/PetPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/ReqresPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/UserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/PetReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/SerializationCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/SerializationIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/PayloadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/PayloadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/PayloadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/PayloadUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,78 +55,8 @@
       <recent name="C:\Users\mhmmd\Desktop\Techtorial Homeworks and Projects\CucumberBatch4-furkan\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiPetAddRunner">
-    <configuration name="Feature: petAddition" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/petAddition.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberBatch4-furkan" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: petAddition" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Validation pet addition" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/petAddition.feature" />
-      <option name="GLUE" value="StepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberBatch4-furkan" />
-      <option name="NAME_FILTER" value="^Validation pet addition$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validation pet addition$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validation pet addition" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiPetAddRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBatch4-furkan" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.ApiPetAddRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExercisePOST.PostRequestEx2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBatch4-furkan" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API.Exercise" />
-      <option name="MAIN_CLASS_NAME" value="API.Exercise.ExercisePOST" />
-      <option name="METHOD_NAME" value="PostRequestEx2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GETRequestIntro.getRequest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PetReq.asd2">
+    <configuration name="PetReq.asd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBatch4-furkan" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +65,70 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.GETRequestIntro" />
-      <option name="METHOD_NAME" value="getRequest3" />
+      <option name="MAIN_CLASS_NAME" value="API.PetReq" />
+      <option name="METHOD_NAME" value="asd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetReq.asd2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="API.PetReq" />
+      <option name="METHOD_NAME" value="asd2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializationCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.Serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API.Serialization" />
+      <option name="MAIN_CLASS_NAME" value="API.Serialization.SerializationCar" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializationIntro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.Serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API.Serialization" />
+      <option name="MAIN_CLASS_NAME" value="API.Serialization.SerializationIntro" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializationIntro.serializ1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.Serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API.Serialization" />
+      <option name="MAIN_CLASS_NAME" value="API.Serialization.SerializationIntro" />
+      <option name="METHOD_NAME" value="serializ1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiPetAddRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Validation pet addition" />
-        <item itemvalue="Cucumber Java.Feature: petAddition" />
-        <item itemvalue="JUnit.ExercisePOST.PostRequestEx2" />
-        <item itemvalue="JUnit.GETRequestIntro.getRequest3" />
+        <item itemvalue="JUnit.PetReq.asd2" />
+        <item itemvalue="JUnit.PetReq.asd" />
+        <item itemvalue="JUnit.SerializationIntro" />
+        <item itemvalue="JUnit.SerializationCar" />
+        <item itemvalue="JUnit.SerializationIntro.serializ1" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +157,7 @@
       <workItem from="1593270983452" duration="1171000" />
       <workItem from="1593272166782" duration="29609000" />
       <workItem from="1593486136564" duration="2519000" />
+      <workItem from="1593560715568" duration="8316000" />
     </task>
     <servers />
   </component>
@@ -163,34 +169,43 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593272299372" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1593367455058">
+    <state x="545" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593569649308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593320188716" />
+    <state x="545" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569649308" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1593569779823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564508044" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569779823" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593367455058" />
     <state x="687" y="229" key="#xdebugger.evaluate" timestamp="1593323518639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="687" y="229" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593323518639" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1593407268202">
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1593569868226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868226" />
     <state width="1491" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1593407268202">
+    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1593569868226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
+    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868226" />
     <state width="1491" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1593407268202">
+    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1593569868225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535017" />
+    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868225" />
     <state width="1491" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1593407268202">
+    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1593569868226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
+    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868226" />
     <state width="1491" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593407268202">
       <screen x="0" y="0" width="1536" height="824" />
@@ -208,18 +223,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
-    <state x="-6" y="0" width="781" height="830" key="dock-window-1" timestamp="1593357424420">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1920" y="0" width="1097" height="1004" key="dock-window-1" timestamp="1593565129165">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1913" y="0" width="974" height="1087" key="dock-window-1/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593318468961" />
+    <state x="1920" y="0" width="1097" height="1004" key="dock-window-1/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593565129165" />
     <state x="-6" y="0" width="781" height="830" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1593357424420" />
+    <state x="2746" y="28" width="1097" height="558" key="dock-window-2" timestamp="1593568550148">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2746" y="28" width="1097" height="558" key="dock-window-2/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593568550148" />
     <state x="209" y="76" key="new project wizard" timestamp="1593407268132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="76" key="new project wizard/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268132" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593320144836">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593561165183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593320144836" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593561165183" />
   </component>
 </project>
