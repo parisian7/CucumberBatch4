@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa0576a-6eed-4909-b82b-2b891471cb63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/Exercise/StarWarsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/Ad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/PetPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/ReqresPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/UserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/PetReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/SerializationCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/Serialization/SerializationIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/BreakingBad/BBCharPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/BreakingBad/BreakingBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/BreakingBad/BreakingBadCharsPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/StarWars/Deserialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/StarWars/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/StarWars/StarWarsPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/TvSeries/CharactersPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/TvSeries/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/POJO/TvSeries/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/PayloadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/PayloadUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/PayloadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/PayloadUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/API/POJO/Ad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/API/POJO/Ad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/API/POJO/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/API/POJO/Data.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1duNO6VhWbAeHT4AtUY0e06XNb2" />
   <component name="ProjectLevelVcsManager">
@@ -51,84 +54,89 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="API.POJO.TvSeries" />
+      <recent name="API.POJO.StarWars" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mhmmd\Desktop\Techtorial Homeworks and Projects\CucumberBatch4-furkan\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetReq.asd2">
-    <configuration name="PetReq.asd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner.bbDesById">
+    <configuration name="BreakingBad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBatch4-furkan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.*" />
+          <option name="PATTERN" value="API.POJO.BreakingBad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.PetReq" />
-      <option name="METHOD_NAME" value="asd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetReq.asd2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBatch4-furkan" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.PetReq" />
-      <option name="METHOD_NAME" value="asd2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializationCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBatch4-furkan" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.Serialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API.Serialization" />
-      <option name="MAIN_CLASS_NAME" value="API.Serialization.SerializationCar" />
+      <option name="PACKAGE_NAME" value="API.POJO.BreakingBad" />
+      <option name="MAIN_CLASS_NAME" value="API.POJO.BreakingBad.BreakingBad" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationIntro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BreakingBad.breakingBadapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBatch4-furkan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.Serialization.*" />
+          <option name="PATTERN" value="API.POJO.BreakingBad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API.Serialization" />
-      <option name="MAIN_CLASS_NAME" value="API.Serialization.SerializationIntro" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="API.POJO.BreakingBad" />
+      <option name="MAIN_CLASS_NAME" value="API.POJO.BreakingBad.BreakingBad" />
+      <option name="METHOD_NAME" value="breakingBadapi" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationIntro.serializ1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BreakingBad.getCharById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBatch4-furkan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.Serialization.*" />
+          <option name="PATTERN" value="API.POJO.BreakingBad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API.Serialization" />
-      <option name="MAIN_CLASS_NAME" value="API.Serialization.SerializationIntro" />
-      <option name="METHOD_NAME" value="serializ1" />
+      <option name="PACKAGE_NAME" value="API.POJO.BreakingBad" />
+      <option name="MAIN_CLASS_NAME" value="API.POJO.BreakingBad.BreakingBad" />
+      <option name="METHOD_NAME" value="getCharById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner.bbDesById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.POJO.TvSeries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API.POJO.TvSeries" />
+      <option name="MAIN_CLASS_NAME" value="API.POJO.TvSeries.Runner" />
+      <option name="METHOD_NAME" value="bbDesById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner.houseGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch4-furkan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.POJO.TvSeries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API.POJO.TvSeries" />
+      <option name="MAIN_CLASS_NAME" value="API.POJO.TvSeries.Runner" />
+      <option name="METHOD_NAME" value="houseGender" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PetReq.asd2" />
-        <item itemvalue="JUnit.PetReq.asd" />
-        <item itemvalue="JUnit.SerializationIntro" />
-        <item itemvalue="JUnit.SerializationCar" />
-        <item itemvalue="JUnit.SerializationIntro.serializ1" />
+        <item itemvalue="JUnit.Runner.bbDesById" />
+        <item itemvalue="JUnit.Runner.houseGender" />
+        <item itemvalue="JUnit.BreakingBad.getCharById" />
+        <item itemvalue="JUnit.BreakingBad.breakingBadapi" />
+        <item itemvalue="JUnit.BreakingBad" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +165,8 @@
       <workItem from="1593270983452" duration="1171000" />
       <workItem from="1593272166782" duration="29609000" />
       <workItem from="1593486136564" duration="2519000" />
-      <workItem from="1593560715568" duration="8316000" />
+      <workItem from="1593560715568" duration="9063000" />
+      <workItem from="1593647442522" duration="18951000" />
     </task>
     <servers />
   </component>
@@ -173,56 +182,69 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="545" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569649308" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1593569779823">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1593733197021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564508044" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569779823" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593367455058" />
-    <state x="687" y="229" key="#xdebugger.evaluate" timestamp="1593323518639">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593724705639" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593733197021" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593724780648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593724780648" />
+    <state x="346" y="189" key="#xdebugger.evaluate" timestamp="1593735533400">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="687" y="229" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593323518639" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1593569868226">
+    <state x="346" y="189" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1593735533400" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1593875897248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868226" />
-    <state width="1491" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1593569868226">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1593875897247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868226" />
-    <state width="1491" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1593569868225">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897247" />
+    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1593875897247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535017" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868225" />
-    <state width="1491" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1593569868226">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897247" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1593875897248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569868226" />
-    <state width="1491" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593378008888" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593407268202">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
+    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593875897248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593407268202">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593875897248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593407268202">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593875897248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593407268202">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593875897248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593407268202" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593724255494">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593724255494" />
     <state x="1920" y="0" width="1097" height="1004" key="dock-window-1" timestamp="1593565129165">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -232,6 +254,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2746" y="28" width="1097" height="558" key="dock-window-2/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593568550148" />
+    <state x="635" y="279" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1593723829188">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="635" y="279" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593723829188" />
     <state x="209" y="76" key="new project wizard" timestamp="1593407268132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
