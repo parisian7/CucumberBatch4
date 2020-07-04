@@ -44,19 +44,23 @@ public class Runner {
 
         System.out.println(charactersPojo.getData().get(0).get_id());
 
-//        Set<String>maleHouses=new HashSet<>();
-//        Set<String>femaleHouses=new HashSet<>();
-//
-//        for (int i = 0; i < charactersPojo.getData().size(); i++) {
-//            if(charactersPojo.getData().get(i).getMale()==true){
-//                maleHouses.add(charactersPojo.getData().get(i).getHouse());
-//            }else if(charactersPojo.getData().get(i).getMale()==false){
-//                femaleHouses.add(charactersPojo.getData().get(i).getHouse());
-//
-//            }
-//        }
-//        System.out.println("Male houses are ; "+maleHouses.toString());
-//        System.out.println("Female houses are; "+ femaleHouses.toString());
+        Set<String>maleHouses=new HashSet<>();
+        Set<String>femaleHouses=new HashSet<>();
+
+        for (int i = 0; i < charactersPojo.getData().size(); i++) {
+            if(charactersPojo.getData().get(i).getMale()==true){
+                maleHouses.add(charactersPojo.getData().get(i).getHouse());
+            }else if(charactersPojo.getData().get(i).getMale()==false){
+                femaleHouses.add(charactersPojo.getData().get(i).getHouse());
+
+            }
+        }
+        System.out.println("Male houses are ; "+maleHouses.toString());
+        System.out.println("Female houses are; "+ femaleHouses.toString());
+
+
+
+
         Map<String,String> charsInBook=new HashMap<>();
         for (int i = 0; i < charactersPojo.getData().size(); i++) {
             for (int j = 0; j < charactersPojo.getData().get(i).getBooks().size(); j++) {
@@ -97,7 +101,7 @@ public class Runner {
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 //        List<BBCharPojo> bbCharPojo = objectMapper.readValue(response.getEntity().getContent(),
 //                objectMapper.getTypeFactory().constructCollectionType(List.class,BBCharPojo.class));
-        List<BBCharPojo>bbCharPojos=objectMapper.readValue(response.getEntity().getContent(),
+        List<BBCharPojo> bbCharPojos=objectMapper.readValue(response.getEntity().getContent(),
               objectMapper.getTypeFactory().constructCollectionType(List.class, BBCharPojo.class)  )    ;
 
         System.out.println(bbCharPojos.get(0).getChar_id());
