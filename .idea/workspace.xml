@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa0576a-6eed-4909-b82b-2b891471cb63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/JIRA/JiraPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/JIRA/Jira_Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/JIRA/LoginInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/JIRA/Session.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API/POJO/TvSeries/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API/POJO/TvSeries/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/API/POJO/TvSeries/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/API/POJO/TvSeries/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/PayloadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/PayloadUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +45,63 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="API.POJO.TvSeries" />
-      <recent name="API.POJO.StarWars" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mhmmd\Desktop\Techtorial Homeworks and Projects\CucumberBatch4-furkan\src\test\resources" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="API.JIRA" />
+      <recent name="API.POJO.TvSeries" />
+      <recent name="API.POJO.StarWars" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner.bbDesById">
-    <configuration name="BreakingBad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Jira_Auth.addIssues2">
+    <configuration name="Jira_Auth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBatch4-furkan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.POJO.BreakingBad.*" />
+          <option name="PATTERN" value="API.JIRA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API.POJO.BreakingBad" />
-      <option name="MAIN_CLASS_NAME" value="API.POJO.BreakingBad.BreakingBad" />
+      <option name="PACKAGE_NAME" value="API.JIRA" />
+      <option name="MAIN_CLASS_NAME" value="API.JIRA.Jira_Auth" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreakingBad.breakingBadapi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Jira_Auth.addIssues1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBatch4-furkan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.POJO.BreakingBad.*" />
+          <option name="PATTERN" value="API.JIRA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API.POJO.BreakingBad" />
-      <option name="MAIN_CLASS_NAME" value="API.POJO.BreakingBad.BreakingBad" />
-      <option name="METHOD_NAME" value="breakingBadapi" />
+      <option name="PACKAGE_NAME" value="API.JIRA" />
+      <option name="MAIN_CLASS_NAME" value="API.JIRA.Jira_Auth" />
+      <option name="METHOD_NAME" value="addIssues1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreakingBad.getCharById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Jira_Auth.addIssues2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberBatch4-furkan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.POJO.BreakingBad.*" />
+          <option name="PATTERN" value="API.JIRA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API.POJO.BreakingBad" />
-      <option name="MAIN_CLASS_NAME" value="API.POJO.BreakingBad.BreakingBad" />
-      <option name="METHOD_NAME" value="getCharById" />
+      <option name="PACKAGE_NAME" value="API.JIRA" />
+      <option name="MAIN_CLASS_NAME" value="API.JIRA.Jira_Auth" />
+      <option name="METHOD_NAME" value="addIssues2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Jira_Auth.addIssues2" />
+        <item itemvalue="JUnit.Jira_Auth" />
+        <item itemvalue="JUnit.Jira_Auth.addIssues1" />
         <item itemvalue="JUnit.Runner.bbDesById" />
         <item itemvalue="JUnit.Runner.houseGender" />
-        <item itemvalue="JUnit.BreakingBad.getCharById" />
-        <item itemvalue="JUnit.BreakingBad.breakingBadapi" />
-        <item itemvalue="JUnit.BreakingBad" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +165,7 @@
       <workItem from="1593560715568" duration="9063000" />
       <workItem from="1593647442522" duration="18951000" />
       <workItem from="1593884057442" duration="4389000" />
+      <workItem from="1593977060027" duration="6673000" />
     </task>
     <servers />
   </component>
@@ -175,12 +181,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="545" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593569649308" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1593733197021">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1593978443934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564508044" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593724705639" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593733197021" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593978443934" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593724780648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,54 +196,59 @@
     </state>
     <state x="687" y="229" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593323518639" />
     <state x="346" y="189" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1593735533400" />
-    <state x="549" y="138" key="FileChooserDialogImpl" timestamp="1593887858074">
+    <state x="549" y="138" key="FileChooserDialogImpl" timestamp="1593980576602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593887858074" />
-    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1593896515470">
+    <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593980576602" />
+    <state width="1493" height="165" key="GridCell.Tab.0.bottom" timestamp="1594014866027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
     <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593896515470" />
-    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
-    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1593896515470">
+    <state width="1493" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594014866027" />
+    <state width="1493" height="165" key="GridCell.Tab.0.center" timestamp="1594014866027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
     <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593896515470" />
-    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
-    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1593896515470">
+    <state width="1493" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594014866027" />
+    <state width="1493" height="165" key="GridCell.Tab.0.left" timestamp="1594014866027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535017" />
     <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593896515470" />
-    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
-    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1593896515470">
+    <state width="1493" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594014866027" />
+    <state width="1493" height="165" key="GridCell.Tab.0.right" timestamp="1594014866027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1474.864/1920.0.1920.1080@0.0.1474.864" timestamp="1593564535018" />
     <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593896515470" />
-    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593837699357" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593875897248">
+    <state width="1493" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594014866027" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1594014225696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593875897248">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594014225696" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1594014225696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593875897248">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594014225696" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1594014225696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593875897248">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594014225696" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1594014225696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1080@0.0.1536.824" timestamp="1593875897248" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593735548328" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594014225696" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1594015042194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594015042194" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593724255494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
