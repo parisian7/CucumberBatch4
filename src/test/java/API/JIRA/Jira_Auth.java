@@ -65,12 +65,12 @@ public class Jira_Auth {
         uriBuilder.setHost("localhost").setPort(8080);
         uriBuilder.setPath("rest/api/2/issue");
 
-        String auto= PayloadUtils.cookieAuthPayload();
+
         HttpPost httpPost=new HttpPost(uriBuilder.build());
 
         httpPost.setHeader("Content-Type","application/json");
         httpPost.setHeader("Accept","application/json");
-        httpPost.setHeader("Cookie",auto);
+        httpPost.setHeader("Cookie",aut);
 
         HttpEntity httpEntity=new StringEntity(PayloadUtils.getJiraIssuePayload("Http response error","gives Unexpected numbers",
                 "Bug"));
