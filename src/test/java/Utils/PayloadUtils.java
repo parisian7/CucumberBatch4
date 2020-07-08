@@ -73,5 +73,22 @@ public class PayloadUtils { // requestBody == Payload
                 "    }\n" +
                 "}";
     }
+//    public static String getJSessionCookie() throws URISyntaxException, IOException {
+//        HttpClient client= HttpClientBuilder.create().build();
+//        URIBuilder uriBuilder=new URIBuilder();
+//        uriBuilder.setScheme("http").setHost("localhost").setPort(8080).setPath("rest/auth/1/session");
+//        HttpPost post=new HttpPost(uriBuilder.build());
+//        post.setHeader("Content-Type","application/json");
+//        post.setHeader("Accept","application/json");
+//        HttpEntity entity= new StringEntity(Utils.PayloadUtil.getCookieAuthPayload());
+//        post.setEntity(entity);
+//        HttpResponse response=client.execute(post);
+//        ObjectMapper objectMapper=new ObjectMapper();
+//        Assert.assertEquals(HttpStatus.SC_OK,response.getStatusLine().getStatusCode());
+//        PojoClass jiraCookiePojo=objectMapper.readValue(response.getEntity().getContent(),PojoClass.class);
+//        String cookieName=jiraCookiePojo.getSession().get("name");
+//        String cookieValue=jiraCookiePojo.getSession().get("value");
+//        return String.format("%s=%s",cookieName,cookieValue);
+//    }
 
 }

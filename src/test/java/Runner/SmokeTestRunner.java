@@ -10,6 +10,8 @@ import org.junit.runner.RunWith;
         glue = "StepDefinitions",
         monochrome = true,
         dryRun = false,
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+
         tags = {"@smoke","@negative"}
 
 )
