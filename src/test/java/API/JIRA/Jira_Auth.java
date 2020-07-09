@@ -72,7 +72,8 @@ public class Jira_Auth {
         httpPost.setHeader("Accept","application/json");
         httpPost.setHeader("Cookie",aut);
 
-        HttpEntity httpEntity=new StringEntity(PayloadUtils.getJiraIssuePayload("Http response error","gives Unexpected numbers",
+        HttpEntity httpEntity=new StringEntity(PayloadUtils.getJiraIssuePayload
+                ("Http response error","gives Unexpected numbers",
                 "Bug"));
 
         /*

@@ -9,6 +9,13 @@ public class BBCharPojo {
     private String birthday;
     private List<String> occupation;
 
+    public List<String> getOccupation() {
+        return occupation;
+    }
+
+    public void setOccupation(List<String> occupation) {
+        this.occupation = occupation;
+    }
 
     private String img;
     private String nickname;
