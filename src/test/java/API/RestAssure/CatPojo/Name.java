@@ -1,22 +1,12 @@
 package API.RestAssure.CatPojo;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
 public class Name {
     private String first;
     private String last;
 
-    public String getFirst() {
-        return first;
-    }
 
-    public void setFirst(String first) {
-        this.first = first;
-    }
-
-    public String getLast() {
-        return last;
-    }
-
-    public void setLast(String last) {
-        this.last = last;
-    }
 }

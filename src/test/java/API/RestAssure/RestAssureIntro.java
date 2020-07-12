@@ -15,20 +15,20 @@ import java.net.URISyntaxException;
 
 public class RestAssureIntro {
 
-//    @Test
-//    public void Test2() throws URISyntaxException, IOException {
-//        HttpClient client = HttpClientBuilder.create().build();
-//        URIBuilder uriBuilder = new URIBuilder();
-//        //http://localhost:8080/rest/api/2/search?jql=assignee=abdulkadir&maxResults=5
-//        uriBuilder.setScheme("http").setHost("localhost").setPort(8080).setPath("rest/api/2/search").setCustomQuery("jql=assignee=abdulkadir&maxResults=5");
-//        HttpGet httpGet = new HttpGet(uriBuilder.build());
-//        httpGet.setHeader("Accept" , "application/json");
-//        httpGet.setHeader("Cookie", PayloadUtils.getJSessionCookie());
-//        HttpResponse response =client.execute(httpGet);
-//        ObjectMapper objectMapper = new ObjectMapper();
-//        JsonNode pardesResp=  objectMapper.readTree(response.getEntity().getContent());
-//        System.out.println(pardesResp.get("issues"));
-//        JsonNode issues = pardesResp.get("issues");
-//        System.out.println(issues.get(0).get("self").asText());
-//    }
+    @Test
+    public void Test2() throws URISyntaxException, IOException {
+        HttpClient client = HttpClientBuilder.create().build();
+        URIBuilder uriBuilder = new URIBuilder();
+        //http://localhost:8080/rest/api/2/search?jql=assignee=abdulkadir&maxResults=5
+        uriBuilder.setScheme("http").setHost("localhost").setPort(8080).setPath("rest/api/2/search").setCustomQuery("jql=assignee=abdulkadir&maxResults=5");
+        HttpGet httpGet = new HttpGet(uriBuilder.build());
+        httpGet.setHeader("Accept" , "application/json");
+        httpGet.setHeader("Cookie","JSESSIONID=1ED53695A500074E380D02C2EF559EEE" );
+        HttpResponse response =client.execute(httpGet);
+        ObjectMapper objectMapper = new ObjectMapper();
+        JsonNode pardesResp=  objectMapper.readTree(response.getEntity().getContent());
+        System.out.println(pardesResp.get("issues"));
+        JsonNode issues = pardesResp.get("issues");
+        System.out.println(issues.get(0).get("self").asText());
+    }
 }
