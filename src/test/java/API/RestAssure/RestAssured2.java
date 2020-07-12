@@ -32,7 +32,6 @@ public class RestAssured2 {
 
         RestAssured.baseURI="https://api.got.show";
         RestAssured.basePath="/api/map/characters/byId/5cc0743504e71a0010b852d9";
-
         given().header("accept", ContentType.JSON).when().get()
                 .then().log().ifStatusCodeIsEqualTo(500).assertThat().statusCode(200).contentType(ContentType.JSON)
                 .rootPath("data") //if you put root path as data you dont need to start with putting data to the body

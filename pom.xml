@@ -79,6 +79,13 @@
             <scope>test</scope>
 <!--            test scope means that it is gonna be reachable in only test part of the  project*******************-->
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
+        </dependency>
 
 
 
