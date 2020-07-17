@@ -1,15 +1,12 @@
 package API.RestAssure;
 
-import API.POJO.PetPojo;
 import API.POJO.UserPojo;
-import API.RestAssure.CatPojo.CatPojo;
-import io.restassured.RestAssured;
+import API.RestAssure.CatPojo.CatPojom;
 import io.restassured.common.mapper.TypeRef;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -49,12 +46,12 @@ public class RestAssuredDeserialization2 {
 
         Response response=when().get("http://cat-fact.herokuapp.com/facts");
         ValidatableResponse validatableResponse=response.then().statusCode(200).and().contentType(ContentType.JSON);
-        CatPojo catPojo=validatableResponse.extract().as(new TypeRef<CatPojo>() {
+        CatPojom catPojom =validatableResponse.extract().as(new TypeRef<CatPojom>() {
         });
 
-    System.out.println(catPojo.getAll().get(0).get_id());
-    System.out.println(catPojo.getAll().get(0).getText());
-    System.out.println(catPojo.getAll().get(0).getUser().getName().getLast());
+    System.out.println(catPojom.getAll().get(0).get_id());
+    System.out.println(catPojom.getAll().get(0).getText());
+    System.out.println(catPojom.getAll().get(0).getUser().getName().getLast());
 }
 
 

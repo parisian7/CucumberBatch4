@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         // "src\\test\\resources\\com.WebOrder\\Logintest.feature",
         //src\test\resources
+
         features={"src\\test\\resources\\com.Etsy\\ScenarioOutlineEtsy.feature"}, //\com.duckduckgo\SearchBoxTest.feature
         glue="StepDefinitions", // it should be empty instead of StepDefinitions
         monochrome=false,
